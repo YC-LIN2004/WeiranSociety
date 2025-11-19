@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // 【關鍵修正 1】：明確設定 module 選項為現代格式
+    "module": "esnext",
+    // 【關鍵修正 2】：設定模組解析方式為 bundler
+    "moduleResolution": "bundler",
+    // 其他設定 (保留或新增，以確保 VS Code 正常工作)
+    "target": "esnext",
+    "jsx": "preserve",
+    "strict": true,
+    "baseUrl": ".",
+    // 您的路徑別名設定
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ], // 確保所有 src 檔案都被包含
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
