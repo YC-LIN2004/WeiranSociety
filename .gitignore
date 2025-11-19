@@ -14,10 +14,10 @@ Backend/src/main/resources/application.properties
 Backend/src/main/resources/application-*.properties
 
 # ===== Vue (Frontend) =====
-Front/node_modules/
-Front/dist/
-Front/.env
-Front/.env.*
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
