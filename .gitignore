@@ -8,10 +8,12 @@ Backend/bin/
 Backend/.classpath
 Backend/.project
 Backend/.settings/
+
+# ===== Sensitives (do NOT track) =====
 Backend/src/main/resources/application.properties
 Backend/src/main/resources/application-*.properties
 
-# ===== Front (Vue) =====
+# ===== Vue (Frontend) =====
 Front/node_modules/
 Front/dist/
 Front/.env
@@ -20,7 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# ===== SQL Server =====
+# ===== SQL Server Files =====
 *.mdf
 *.ldf
 *.bak
@@ -34,5 +36,5 @@ pnpm-debug.log*
 Thumbs.db
 .DS_Store
 
-# ===== TS build info =====
+# ===== TypeScript Build Info =====
 *.tsbuildinfo
