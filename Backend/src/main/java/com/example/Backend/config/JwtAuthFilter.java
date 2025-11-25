@@ -59,8 +59,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 || path.startsWith("/uploads/")
                 || path.startsWith("/api/uploads/")
                 || path.startsWith("/file/")
-                || path.startsWith("/static/")
-                ) {
+                || path.startsWith("/static/")) {
 
             System.out.println("🟢 JwtAuthFilter 放行公開路由：" + path);
             filterChain.doFilter(request, response);
